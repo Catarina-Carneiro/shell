@@ -12,5 +12,6 @@ else echo "Realiazndo instalação do Java"
         source “$HOME/.sdkman/bin/sdkman-init.sh”
         sdk install java 8.0.265.j9-adpt
         echo "Realizando execução do Java"
+        cd /home/ubuntu/Desktop/JAVA/JarIMC/Continua3/target
         java -jar Continua3-1.0-SNAPSHOT-jar-with-dependencies.jar 
 fi
